@@ -155,12 +155,6 @@ users
 SELECT * FROM users LIMIT 10;
 ```
 
-### Estrutura da tabela
-
-```sql
-PRAGMA table_info(users);
-```
-
 ### Contagem de registros
 
 ```sql
@@ -193,17 +187,6 @@ data_config:
 ```
 
 Permite tornar o pipeline configurável sem alterar código.
-
----
-
-## Boas Práticas Aplicadas
-
-* Separação de responsabilidades (ingestion, validation, preparation)
-* Tipagem forte com schema
-* Tratamento de dados inconsistentes
-* Pipeline idempotente
-* Logging estruturado
-* Configuração externa
 
 ---
 
