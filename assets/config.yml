@@ -1,0 +1,21 @@
+data_config:
+  columns_to_keep:
+    - gender
+    - email
+    - phone
+    - cell
+    - nat
+
+  date_columns:
+    - dob_date
+    - registered_date
+
+  int_columns:
+    - dob_age
+    - registered_age
+
+  float_columns:
+    - location_coordinates_latitude
+    - location_coordinates_longitude
+
+  normalize_phone: true
