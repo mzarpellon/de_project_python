@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Este projeto implementa um pipeline de dados simples, porém estruturado, seguindo boas práticas de Engenharia de Dados:
+Este projeto implementa um pipeline de dados simples:
 
 * Ingestão de dados via API pública
 * Validação com schema tipado
@@ -10,7 +10,7 @@ Este projeto implementa um pipeline de dados simples, porém estruturado, seguin
 * Persistência em banco SQLite
 * Verificação de qualidade dos dados
 
-A solução simula um fluxo real de ingestão utilizado em pipelines modernos.
+A solução simula um fluxo real de ingestão.
 
 ---
 
@@ -185,11 +185,3 @@ data_config:
     - dob_date
     - registered_date
 ```
-
-Permite tornar o pipeline configurável sem alterar código.
-
----
-
-## Objetivo do Projeto
-
-Demonstrar um pipeline de dados completo, desde ingestão até persistência, aplicando conceitos fundamentais de Engenharia de Dados em um cenário realista.
